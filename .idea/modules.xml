@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dubinin.iml" filepath="$PROJECT_DIR$/Dubinin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumMass.iml" filepath="$PROJECT_DIR$/SumMass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextFiles/TextFiles.iml" filepath="$PROJECT_DIR$/TextFiles/TextFiles.iml" />
     </modules>
   </component>
 </project>

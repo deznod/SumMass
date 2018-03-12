@@ -4,7 +4,7 @@ package ru.dve.cat;
 import java.util.Scanner;
 
 public class Main {
-    static Scanner sc = new Scanner(System.in);
+    private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         Cat[] cats = new Cat[4];
@@ -17,6 +17,7 @@ public class Main {
             if (gen == 1) {
                 gender = 'М';
             }
+
             String year = String.valueOf((int) (Math.random() * (2018 - 2000)) + 2000);
             System.out.println("Порода: ");
             String bread = sc.nextLine();
@@ -28,7 +29,7 @@ public class Main {
     }
 
     private static Cat searchOldCat(Cat[] cats) {
-        int save = 10;
+        int save = 0;
         int a = Integer.valueOf(cats[0].getYear());
         for (int i = 0; i < cats.length; i++) {
             int b = Integer.valueOf(cats[i].getYear());

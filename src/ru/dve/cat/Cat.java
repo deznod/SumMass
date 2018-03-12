@@ -16,7 +16,7 @@ private String bread;
                 '}';
     }
 
-    public Cat(String name, char gender, String year, String bread) {
+    Cat(String name, char gender, String year, String bread) {
         this.name = name;
         this.gender = gender;
         this.year = year;
